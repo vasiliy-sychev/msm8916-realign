@@ -1,0 +1,200 @@
+msm8916-realign for Xiaomi Redmi 2
+This software comes with no warranties, use it at your own risk!
+
+Patching gpt_backup0.bin (D:\8mb_mod\8.2.4.0_LHJCNDL\gpt_backup0.bin)...
+Loading data from file... 16896 bytes was successfully loaded from file!
+Checking GPT header... OK!
+Partition entries used: 30/32
+Re-calculating partition table (alignment: 16384 sectors / 8388608 bytes)...
+
+Processing partition 1: modem...
+Length: 131072 sectors
+First:  131072 -> 131072 (no gap from prev. part.)
+Last:   262143 -> 262143
+start_byte_hex=0x4000000
+
+Processing partition 2: sbl1...
+Length: 1024 sectors
+First:  262144 -> 262144 (no gap from prev. part.)
+Last:   263167 -> 263167
+start_byte_hex=0x8000000
+
+Processing partition 3: sbl1bak...
+Length: 1024 sectors
+First:  263168 -> 278528 (15360 unused sectors from prev. part.)
+Last:   264191 -> 279551
+start_byte_hex=0x8800000
+
+Processing partition 4: aboot...
+Length: 2048 sectors
+First:  264192 -> 294912 (15360 unused sectors from prev. part.)
+Last:   266239 -> 296959
+start_byte_hex=0x9000000
+
+Processing partition 5: abootbak...
+Length: 2048 sectors
+First:  266240 -> 311296 (14336 unused sectors from prev. part.)
+Last:   268287 -> 313343
+start_byte_hex=0x9800000
+
+Processing partition 6: rpm...
+Length: 1024 sectors
+First:  268288 -> 327680 (14336 unused sectors from prev. part.)
+Last:   269311 -> 328703
+start_byte_hex=0xa000000
+
+Processing partition 7: rpmbak...
+Length: 1024 sectors
+First:  269312 -> 344064 (15360 unused sectors from prev. part.)
+Last:   270335 -> 345087
+start_byte_hex=0xa800000
+
+Processing partition 8: tz...
+Length: 1024 sectors
+First:  270336 -> 360448 (15360 unused sectors from prev. part.)
+Last:   271359 -> 361471
+start_byte_hex=0xb000000
+
+Processing partition 9: tzbak...
+Length: 1024 sectors
+First:  271360 -> 376832 (15360 unused sectors from prev. part.)
+Last:   272383 -> 377855
+start_byte_hex=0xb800000
+
+Processing partition 10: hyp...
+Length: 1024 sectors
+First:  272384 -> 393216 (15360 unused sectors from prev. part.)
+Last:   273407 -> 394239
+start_byte_hex=0xc000000
+
+Processing partition 11: hypbak...
+Length: 1024 sectors
+First:  273408 -> 409600 (15360 unused sectors from prev. part.)
+Last:   274431 -> 410623
+start_byte_hex=0xc800000
+
+Processing partition 12: pad...
+Length: 2048 sectors
+First:  274432 -> 425984 (15360 unused sectors from prev. part.)
+Last:   276479 -> 428031
+start_byte_hex=0xd000000
+
+Processing partition 13: modemst1...
+Length: 3072 sectors
+First:  276480 -> 442368 (14336 unused sectors from prev. part.)
+Last:   279551 -> 445439
+start_byte_hex=0xd800000
+
+Processing partition 14: modemst2...
+Length: 3072 sectors
+First:  279552 -> 458752 (13312 unused sectors from prev. part.)
+Last:   282623 -> 461823
+start_byte_hex=0xe000000
+
+Processing partition 15: misc...
+Length: 2048 sectors
+First:  282624 -> 475136 (13312 unused sectors from prev. part.)
+Last:   284671 -> 477183
+start_byte_hex=0xe800000
+
+Processing partition 16: fsc...
+Length: 2 sectors
+First:  284672 -> 491520 (14336 unused sectors from prev. part.)
+Last:   284673 -> 491521
+start_byte_hex=0xf000000
+
+Processing partition 17: ssd...
+Length: 16 sectors
+First:  284674 -> 507904 (16382 unused sectors from prev. part.)
+Last:   284689 -> 507919
+start_byte_hex=0xf800000
+
+Processing partition 18: splash...
+Length: 20480 sectors
+First:  284690 -> 524288 (16368 unused sectors from prev. part.)
+Last:   305169 -> 544767
+start_byte_hex=0x10000000
+
+Processing partition 19: DDR...
+Length: 64 sectors
+First:  393216 -> 557056 (12288 unused sectors from prev. part.)
+Last:   393279 -> 557119
+start_byte_hex=0x11000000
+
+Processing partition 20: fsg...
+Length: 3072 sectors
+First:  393280 -> 573440 (16320 unused sectors from prev. part.)
+Last:   396351 -> 576511
+start_byte_hex=0x11800000
+
+Processing partition 21: sec...
+Length: 32 sectors
+First:  396352 -> 589824 (13312 unused sectors from prev. part.)
+Last:   396383 -> 589855
+start_byte_hex=0x12000000
+
+Processing partition 22: boot...
+Length: 65536 sectors
+First:  396384 -> 606208 (16352 unused sectors from prev. part.)
+Last:   461919 -> 671743
+start_byte_hex=0x12800000
+
+Processing partition 23: system...
+Length: 2097152 sectors
+First:  461920 -> 671744 (no gap from prev. part.)
+Last:   2559071 -> 2768895
+start_byte_hex=0x14800000
+
+Processing partition 24: cache...
+Length: 655360 sectors
+First:  2559072 -> 2768896 (no gap from prev. part.)
+Last:   3214431 -> 3424255
+start_byte_hex=0x54800000
+
+Processing partition 25: persist...
+Length: 65536 sectors
+First:  3214432 -> 3424256 (no gap from prev. part.)
+Last:   3279967 -> 3489791
+start_byte_hex=0x68800000
+
+Processing partition 26: recovery...
+Length: 65536 sectors
+First:  3279968 -> 3489792 (no gap from prev. part.)
+Last:   3345503 -> 3555327
+start_byte_hex=0x6a800000
+
+Processing partition 27: keystore...
+Length: 1024 sectors
+First:  3407872 -> 3555328 (no gap from prev. part.)
+Last:   3408895 -> 3556351
+start_byte_hex=0x6c800000
+
+Processing partition 28: config...
+Length: 64 sectors
+First:  3408896 -> 3571712 (15360 unused sectors from prev. part.)
+Last:   3408959 -> 3571775
+start_byte_hex=0x6d000000
+
+Processing partition 29: oem...
+Length: 131072 sectors
+First:  3408960 -> 3588096 (16320 unused sectors from prev. part.)
+Last:   3540031 -> 3719167
+start_byte_hex=0x6d800000
+
+Processing partition 30: userdata...
+Length: 0 sectors
+First:  3670016 -> 3719168 (no gap from prev. part.)
+Last:   3670015 -> 15286271 (expanded to fill free space)
+start_byte_hex=0x71800000
+
+Processing partition 31: NOT USED
+
+Processing partition 32: NOT USED
+
+Location of this (backup) header: 15302655
+Partition entry array location:   15302623
+Updated "Last usable LBA":      15302622
+CRC32 (partitions): 91CF4CC6
+CRC32 (GPT header): 7A494156
+
+Saving fixed partition table... 16896 bytes written
