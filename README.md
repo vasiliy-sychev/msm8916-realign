@@ -34,6 +34,8 @@ There are three ways:
 2. Second: "kill" secondary bootloader (SBL) using fastboot (fastboot erase sbl1; fastboot erase sbl1bak)
 3. Third: "kill" SBL using dd (dd if=/dev/zero of=/dev/block/mmcblk0pX bs=1024 count=XXX), requires root-access or advanced recovery (like a TWRP)
 
-Step 4. Flash modified firmware package using QFIL
+Step 5. Flash modified firmware package using QFIL
 
-Step 5. Turn on your phone!
+Step 6. Turn on your phone!
+
+Good luck!
